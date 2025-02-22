@@ -11,7 +11,6 @@ const CreateProduct = () => {
     const [tags, setTags] = useState("");
     const [price, setPrice] = useState("");
     const [stock, setStock] = useState("");
-    // const [imageUrl, setImageUrl] = useState(""); 
     const [email, setEmail] = useState("");
 
 

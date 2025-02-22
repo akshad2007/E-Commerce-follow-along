@@ -9,7 +9,6 @@ export default function ByProduct() {
     const [editingProduct, setEditingProduct] = useState(null);
     const [updatedData, setUpdatedData] = useState({});
 
-    // 🔥 Change this to your actual email
     const userEmail = "kalviums76@gmail.com";  
 
     useEffect(() => {

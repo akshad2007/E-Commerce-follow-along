@@ -10,7 +10,6 @@ const NavBar = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="text-xl font-bold">MyStore</Link>
-
         {/* Hamburger Menu (Mobile) */}
         <div className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)} className="focus:outline-none">
